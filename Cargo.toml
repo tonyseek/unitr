@@ -1,0 +1,8 @@
+[package]
+name = "unitr"
+version = "0.1.0"
+edition = "2021"
+description = "Translate, squeeze, and/or delete unicode characters from standard input, writing to standard output."
+
+[dependencies]
+clap = { version = "4.5.15", features = ["derive"] }
