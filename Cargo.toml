@@ -6,3 +6,6 @@ description = "Translate, squeeze, and/or delete unicode characters from standar
 
 [dependencies]
 clap = { version = "4.5.15", features = ["derive"] }
+
+[dev-dependencies]
+assert_cmd = "2.0.16"
